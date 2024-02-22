@@ -1,0 +1,24 @@
+/* ÔTER LES PAS/MARGES PAR DEFAUT DE TOUS LES ELEMENTS */
+:root {
+  /* exemple variable 
+	--maVariable:blue;
+	proprietecss:var(--maVariable);*/
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+canvas {
+  background: #36c7f2;
+}
+#perf {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  color: red;
+  font-weight: bold;
+  font-size: x-large;
+}
